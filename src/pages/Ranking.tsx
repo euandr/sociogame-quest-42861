@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { supabase } from '@/integrations/supabase/client';
 import { PlayerScore } from '@/types/game';
-import { Trophy, Medal, Award, Home, RotateCcw } from 'lucide-react';
+import { Trophy, Medal, Award, Home } from 'lucide-react';
 import { toast } from 'sonner';
 
 const Ranking = () => {
@@ -34,10 +34,6 @@ const Ranking = () => {
     } finally {
       setLoading(false);
     }
-  };
-
-  const handlePlayAgain = () => {
-    navigate('/concepts');
   };
 
   const handleGoHome = () => {
@@ -130,22 +126,12 @@ const Ranking = () => {
           )}
         </div>
 
-        <div className="flex flex-col sm:flex-row gap-4">
-          <Button
-            onClick={handlePlayAgain}
-            variant="game"
-            size="lg"
-            className="flex-1 h-14"
-          >
-            <RotateCcw className="mr-2" />
-            Jogar Novamente
-          </Button>
-          
+        <div className="flex justify-center">
           <Button
             onClick={handleGoHome}
             variant="outline"
             size="lg"
-            className="flex-1 h-14"
+            className="h-14 px-12"
           >
             <Home className="mr-2" />
             Tela Inicial
