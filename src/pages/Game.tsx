@@ -28,10 +28,35 @@ const Game = () => {
     loadNextQuestion();
   }, []);
 
+  const shuffleOptions = (question: Question): Question => {
+    // Cria um array com os índices das opções
+    const indices = question.options.map((_, index) => index);
+    
+    // Embaralha os índices usando Fisher-Yates shuffle
+    for (let i = indices.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [indices[i], indices[j]] = [indices[j], indices[i]];
+    }
+    
+    // Cria novo array de opções embaralhado
+    const shuffledOptions = indices.map(i => question.options[i]);
+    
+    // Encontra a nova posição da resposta correta
+    const newCorrectAnswer = indices.indexOf(question.correctAnswer);
+    
+    return {
+      ...question,
+      options: shuffledOptions,
+      correctAnswer: newCorrectAnswer
+    };
+  };
+
   const loadNextQuestion = () => {
     const question = getRandomQuestion(usedQuestions);
     if (question) {
-      setCurrentQuestion(question);
+      // Embaralha as alternativas antes de definir a questão
+      const shuffledQuestion = shuffleOptions(question);
+      setCurrentQuestion(shuffledQuestion);
       setSelectedAnswer(null);
       setShowResult(false);
     } else {
