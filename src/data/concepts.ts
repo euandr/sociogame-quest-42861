@@ -14,9 +14,8 @@ export const sociologyConcepts: Concept[] = [
     ],
     details: 'A cultura engloba tudo aquilo que é aprendido e transmitido de geração em geração. Ela não é inata, mas sim construída socialmente através da convivência. Cada sociedade desenvolve sua própria cultura, que orienta o comportamento de seus membros e dá sentido às suas ações.',
     references: [
-      { title: 'Brasil Escola - Cultura', url: 'https://brasilescola.uol.com.br/sociologia/cultura.htm' },
-      { title: 'Toda Matéria - Cultura', url: 'https://www.todamateria.com.br/cultura/' },
-      { title: 'Wikipedia - Cultura', url: 'https://pt.wikipedia.org/wiki/Cultura' }
+      { title: 'Brasil Escola - Cultura', url: 'https://brasilescola.uol.com.br/cultura' },
+      { title: 'Brasil Escola - Identidade Cultural', url: 'https://brasilescola.uol.com.br/sociologia/identidade-cultural.htm' }
     ]
   },
   {
@@ -32,9 +31,9 @@ export const sociologyConcepts: Concept[] = [
     ],
     details: 'A sociedade é formada por pessoas que interagem entre si de forma contínua e organizada. Ela possui estruturas que regulam a convivência, como instituições, normas e valores compartilhados. A sociedade é dinâmica e está em constante transformação.',
     references: [
-      { title: 'Brasil Escola - Sociedade', url: 'https://brasilescola.uol.com.br/sociologia/sociedade.htm' },
-      { title: 'Toda Matéria - Sociedade', url: 'https://www.todamateria.com.br/sociedade/' },
-      { title: 'Mundo Educação - O que é Sociedade', url: 'https://mundoeducacao.uol.com.br/sociologia/sociedade.htm' }
+      { title: 'Brasil Escola - Sociedade', url: 'https://brasilescola.uol.com.br/sociologia/sociedade-1.htm' },
+      { title: 'Toda Matéria - Conceito de Sociedade', url: 'https://www.todamateria.com.br/conceito-de-sociedade/' },
+      { title: 'Mundo Educação - Sociedade', url: 'https://mundoeducacao.uol.com.br/sociologia/sociedade.htm' }
     ]
   },
   {
@@ -50,9 +49,8 @@ export const sociologyConcepts: Concept[] = [
     ],
     details: 'A socialização é um processo contínuo que começa na infância e se estende por toda a vida. É através dela que internalizamos as regras sociais, desenvolvemos nossa identidade e aprendemos a viver em grupo. A socialização primária ocorre na família, enquanto a secundária acontece em outras instituições.',
     references: [
-      { title: 'Brasil Escola - Socialização', url: 'https://brasilescola.uol.com.br/sociologia/socializacao.htm' },
-      { title: 'Educa Mais Brasil - Socialização', url: 'https://www.educamaisbrasil.com.br/enem/sociologia/socializacao' },
-      { title: 'Toda Matéria - Socialização', url: 'https://www.todamateria.com.br/socializacao/' }
+      { title: 'Brasil Escola - Processo de Socialização', url: 'https://brasilescola.uol.com.br/sociologia/processo-de-socializacao.htm' },
+      { title: 'Educa Mais Brasil - Processo de Socialização', url: 'https://www.educamaisbrasil.com.br/enem/sociologia/processo-de-socializacao' }
     ]
   },
   {
@@ -68,9 +66,8 @@ export const sociologyConcepts: Concept[] = [
     ],
     details: 'Os grupos sociais são fundamentais para a vida em sociedade. Grupos primários têm relações mais íntimas e pessoais, enquanto grupos secundários são mais formais e objetivos. Todos nós pertencemos a diversos grupos simultaneamente, e eles influenciam nossa identidade e comportamento.',
     references: [
-      { title: 'Brasil Escola - Grupos Sociais', url: 'https://brasilescola.uol.com.br/sociologia/grupos-sociais.htm' },
-      { title: 'Mundo Educação - Grupos Sociais', url: 'https://mundoeducacao.uol.com.br/sociologia/grupos-sociais.htm' },
-      { title: 'Toda Matéria - Grupos Sociais', url: 'https://www.todamateria.com.br/grupos-sociais/' }
+      { title: 'Brasil Escola - Os Grupos Sociais', url: 'https://monografias.brasilescola.uol.com.br/sociologia/os-grupos-sociais.htm' },
+      { title: 'Mundo Educação - Mecanismos de Sustentação dos Grupos Sociais', url: 'https://mundoeducacao.uol.com.br/sociologia/mecanismos-sustentacao-dos-grupos-sociais.htm' }
     ]
   },
   {
@@ -86,9 +83,8 @@ export const sociologyConcepts: Concept[] = [
     ],
     details: 'As normas sociais podem ser formais (leis) ou informais (costumes). Elas regulam a convivência e estabelecem o que é esperado, aceito ou proibido. A violação de normas pode resultar em sanções sociais, que vão desde a reprovação até punições legais.',
     references: [
-      { title: 'Brasil Escola - Normas Sociais', url: 'https://brasilescola.uol.com.br/sociologia/normas-sociais.htm' },
-      { title: 'Educa Mais Brasil - Normas e Valores Sociais', url: 'https://www.educamaisbrasil.com.br/enem/sociologia/normas-e-valores-sociais' },
-      { title: 'Mundo Educação - Normas Sociais', url: 'https://mundoeducacao.uol.com.br/sociologia/normas-sociais.htm' }
+      { title: 'Brasil Escola - Relações Sociais', url: 'https://brasilescola.uol.com.br/sociologia/relacoes-sociais.htm' },
+      { title: 'Brasil Escola - Instituições Sociais', url: 'https://brasilescola.uol.com.br/sociologia/instituicoes-sociais.htm' }
     ]
   },
   {
@@ -104,9 +100,8 @@ export const sociologyConcepts: Concept[] = [
     ],
     details: 'Os valores são abstratos e orientam nossas escolhas morais e comportamentos. Eles variam entre culturas e ao longo do tempo. Valores como honestidade, respeito e responsabilidade são transmitidos pela socialização e influenciam profundamente nossas ações.',
     references: [
-      { title: 'Brasil Escola - Valores Sociais', url: 'https://brasilescola.uol.com.br/sociologia/valores-sociais.htm' },
-      { title: 'Toda Matéria - Valores Sociais', url: 'https://www.todamateria.com.br/valores-sociais/' },
-      { title: 'Prepara ENEM - Valores Sociais', url: 'https://www.preparaenem.com/sociologia/valores-sociais.htm' }
+      { title: 'Significados - Valores Sociais', url: 'https://www.significados.com.br/valores-sociais/' },
+      { title: 'Brasil Escola - Valores Morais', url: 'https://brasilescola.uol.com.br/filosofia/valores-morais-sua-importancia-para-sociedade.htm' }
     ]
   },
   {
@@ -122,9 +117,9 @@ export const sociologyConcepts: Concept[] = [
     ],
     details: 'A estratificação social divide a sociedade em camadas hierárquicas. Fatores como renda, educação e ocupação determinam a posição social. A mobilidade social permite mudanças de classe. Além disso, fatores sociais como família, escola, mídia e economia influenciam constantemente nossos valores e ações.',
     references: [
-      { title: 'Brasil Escola - Estratificação Social', url: 'https://brasilescola.uol.com.br/sociologia/estratificacao-social.htm' },
-      { title: 'Toda Matéria - Estratificação Social', url: 'https://www.todamateria.com.br/estratificacao-social/' },
-      { title: 'Mundo Educação - Classes Sociais', url: 'https://mundoeducacao.uol.com.br/sociologia/classes-sociais.htm' }
+      { title: 'Toda Matéria - Estratificação Social', url: 'https://www.todamateria.com.br/sociedade-estratificada/' },
+      { title: 'Toda Matéria - Classe Social', url: 'https://www.todamateria.com.br/classe-social/' },
+      { title: 'Mundo Educação - Classe Social', url: 'https://mundoeducacao.uol.com.br/sociologia/classe-social.htm' }
     ]
   },
   {
@@ -160,9 +155,9 @@ export const sociologyConcepts: Concept[] = [
     ],
     details: 'A democracia pressupõe que os cidadãos participem ativamente das decisões coletivas. Isso inclui votar, fiscalizar o governo, participar de movimentos sociais e exercer direitos fundamentais. A participação social fortalece a democracia e promove mudanças sociais.',
     references: [
-      { title: 'Brasil Escola - Democracia', url: 'https://brasilescola.uol.com.br/sociologia/democracia.htm' },
-      { title: 'Toda Matéria - Democracia', url: 'https://www.todamateria.com.br/democracia/' },
-      { title: 'Politize! - O que é Democracia', url: 'https://www.politize.com.br/democracia-o-que-e/' }
+      { title: 'Politize! - O que é Democracia', url: 'https://www.politize.com.br/democracia/' },
+      { title: 'Politize! - Formas de Exercer a Cidadania', url: 'https://www.politize.com.br/cidadania-formas-de-exercer/' },
+      { title: 'Politize! - Democracia Participativa', url: 'https://www.politize.com.br/democracia-participativa/' }
     ]
   },
   {
@@ -179,9 +174,8 @@ export const sociologyConcepts: Concept[] = [
     ],
     details: 'A sociedade está em constante transformação. Mudanças sociais podem ser graduais ou abruptas, e são impulsionadas por fatores econômicos, tecnológicos, culturais e políticos. Conflitos entre grupos também geram inovações e transformações nas normas e estruturas sociais.',
     references: [
-      { title: 'Brasil Escola - Mudança Social', url: 'https://brasilescola.uol.com.br/sociologia/mudanca-social.htm' },
-      { title: 'Toda Matéria - Mudança Social', url: 'https://www.todamateria.com.br/mudanca-social/' },
-      { title: 'Mundo Educação - Transformações Sociais', url: 'https://mundoeducacao.uol.com.br/sociologia/transformacoes-sociais.htm' }
+      { title: 'Wikipedia - Mudança Social', url: 'https://pt.wikipedia.org/wiki/Mudan%C3%A7a_social' },
+      { title: 'Instituto Alana - Transformação Social', url: 'https://alana.org.br/glossario/transformacao-social/' }
     ]
   }
 ];
