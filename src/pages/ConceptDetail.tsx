@@ -1,7 +1,7 @@
 import { useNavigate, useParams } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { sociologyConcepts } from '@/data/concepts';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, ExternalLink } from 'lucide-react';
 
 const ConceptDetail = () => {
   const { id } = useParams();
@@ -64,6 +64,28 @@ const ConceptDetail = () => {
                 <p className="text-lg text-muted-foreground leading-relaxed whitespace-pre-line">
                   {concept.details}
                 </p>
+              </div>
+            )}
+
+            {concept.references && concept.references.length > 0 && (
+              <div>
+                <h2 className="text-xl font-semibold text-primary mb-3">Saiba mais:</h2>
+                <div className="space-y-2">
+                  {concept.references.map((reference, idx) => (
+                    <a
+                      key={idx}
+                      href={reference.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 p-3 bg-muted/30 hover:bg-muted/50 rounded-lg transition-colors group"
+                    >
+                      <ExternalLink className="w-4 h-4 text-primary flex-shrink-0" />
+                      <span className="text-muted-foreground group-hover:text-foreground transition-colors">
+                        {reference.title}
+                      </span>
+                    </a>
+                  ))}
+                </div>
               </div>
             )}
           </div>

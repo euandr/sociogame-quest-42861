@@ -16,6 +16,7 @@ export interface Concept {
   icon: string;
   examples?: string[];
   details?: string;
+  references?: { title: string; url: string }[];
 }
 
 export interface PlayerScore {
