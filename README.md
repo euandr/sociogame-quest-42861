@@ -1,6 +1,7 @@
 
+# Informações:
 
-# 🔗 Links do Projeto
+## 🔗 Links do Projeto
 
 - **🎮 Jogar:** [https://sociogame-quest-42861.lovable.app](https://sociogame-quest-42861.lovable.app)
 - **🛠️ Editar no Lovable:** [https://lovable.dev/projects/463264dc-99ce-4ab2-9ef1-b85e927705fe](https://lovable.dev/projects/463264dc-99ce-4ab2-9ef1-b85e927705fe)
